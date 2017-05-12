@@ -36,7 +36,7 @@
 #include "hci.h"
 #include "hci_lib.h"
 
-#define CONNECTION_TIMEOUT    2
+#define CONNECTION_TIMEOUT    10
 
 struct gattlib_thread_t g_gattlib_thread = { 0 };
 

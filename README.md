@@ -1,3 +1,18 @@
+
+This is a Modified version by Oleksiy Grechnyev
+===============================================
+
+My changes so far:
+
+1. *CONNECTION_TIMEOUT* in `gattlib_common.c` is changed from 2 to 10. The original timeout was too short for some BLE devices to connect.
+
+2. Fixed a bug in *gattlib_write_char_by_uuid()* in `gattlib_read_write.c`. It should now work properly.
+
+
+Original readme:
+================
+
+
 GattLib is a library used to access Generic Attribute Profile (GATT) protocol of BLE (Bluetooth Low Energy) devices.
 It has been introduced to allow to build applications that could easily communicate with BLE devices.
 
@@ -13,9 +28,8 @@ make
 Latest GattLib Release packages
 ===============================
 
-- ZIP: <https://github.com/labapart/gattlib/releases/download/v0.2/gattlib_0.2_x86_64.zip>
-- DEB: <https://github.com/labapart/gattlib/releases/download/v0.2/gattlib_0.2_x86_64.deb>
-- RPM: <https://github.com/labapart/gattlib/releases/download/v0.2/gattlib_0.2_x86_64.rpm>
+None available for the modified version
+
 
 Build GattLib
 =============
